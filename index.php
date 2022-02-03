@@ -10,7 +10,7 @@ get_header(); ?>
       <div class="container-fluid" style="margin: 0 auto; width: 90%; max-width: 75rem;">  
         <div id="slider-home" class="carousel slide" data-ride="carousel">
 
-          <!-- Indicators -->
+          <!-- Indicators  -->
           <ul class="carousel-indicators">
             <li data-target="#slider-home" data-slide-to="0" class="active"></li>
             <li data-target="#slider-home" data-slide-to="1"></li>
@@ -35,10 +35,25 @@ get_header(); ?>
             </div>
 
             <div class="carousel-item">
+              <img src="<?php bloginfo('template_url'); ?>/img/selva.png" alt="slide-1" style="width: 100%">
+
+              <div class="carousel-caption">
+                
+                <img alt="Yumka" src="<?php bloginfo('template_url'); ?>/img/Eslogan.png" style="margin-top: 1rem"">
+                
+                <img alt="Yumka" src="<?php bloginfo('template_url'); ?>/img/LetraYUMKA.png" style="margin-top: 1rem">
+                
+                <p><h4 style="font-size: 2vw;">Si eres Tabasqueño pregunta por las promociones que tenemos para tí</h4></p>
+                <p align="center"><a href="#" class="btn btn-light">Ver más</a></p>
+              </div>
+
+            </div>
+
+            <!--<div class="carousel-item">
               <video class="video-fluid" autoplay loop muted alt="slide-2" style="width: 100%">
                 <source src="https://mdbootstrap.com/img/video/Tropical.mp4" type="video/mp4" />
               </video>
-            </div>
+            </div>-->
             <div class="carousel-item">
               <img src="<?php bloginfo('template_url'); ?>/img/selva.png" alt="slide-3" style="width: 100%">
             </div>
