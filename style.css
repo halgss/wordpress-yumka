@@ -1,9 +1,19 @@
 /*
-Theme Name: Yumka 
-Template Theme URI: https://ahorrametiempo.com/
+Theme Name: yumka.tic 
+Theme URI: https://yumka.tic/
 Author: Lic Henry Alcaraz
-Description: Plantilla diseñada para un trabajo más organizado en la comunicación con el visitante.
+Author URI: http://henryalcaraz.com
+Description: Plantilla diseñada para un trabajo más organizado en el área administrativa.
+Tags: blog, one-column, custom-background, custom-colors, custom-logo, custom-menu, editor-style, featured-images, footer-widgets, full-width-template, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready, block-styles, wide-blocks, accessibility-ready
 Version: 1.0
+Requires at least: 5.0
+Tested up to: 5.9
+Requires PHP: 7.4
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: yumka-tic
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
 */
 
 /*General */
