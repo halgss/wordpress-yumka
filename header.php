@@ -22,7 +22,7 @@
     
     
     <!-- Main CSS creado-->
-    <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css">
+    <link rel="stylesheet" href="<?php bloginfo('stylesheet_url');?>" type="text/css">
 
     <?php wp_head(); ?>
     <!-- funcion de wordpress para que pueda agregar codigo de plugin -->
@@ -30,11 +30,74 @@
   </head>
   <body>
     <header>
+      <div class="menus">
+          <nav>
+              <img src="<?php bloginfo('template_url'); ?>/img/menu-mobile.png" alt="menu-mobile" class="menu-mobile">
+
+              <div class="navbar-left">
+                  <img src="<?php bloginfo('template_url'); ?>/img/yumka_blanco.png" alt="logo-menu" class="logo-menu">
+                  <ul>
+                      <li>
+                          <a href="/">Recorrido</a>
+                      </li>
+                      <li>
+                          <a href="/">Horarios</a>
+                      </li>
+                      <li>
+                          <a href="/">Costos</a>
+                      </li>
+                      <li>
+                          <a href="/">Reglamento</a>
+                      </li>
+                      <li>
+                          <a href="/">Buz&oacuten</a>
+                      </li>
+                  </ul>
+              </div>
+
+              <div class="navbar-right">
+                  <ul>
+                      <li class="navbar-web"><a href="http://yumka.gob.mx">yumka.gob.mx</a></li>
+                      <li class="navbar-wifi">
+                          <img src="<?php bloginfo('template_url'); ?>/img/logo-wifi.png" alt="Conectarse">
+                      </li>
+                  </ul>                
+              </div>
+          </nav>
+      </div>
+
+      <div class="tucan-izq">
+          <img src="<?php bloginfo('template_url'); ?>/img/tucan_izq.png" alt="tucan_izq">
+      </div>
+
+      <div class="desktop-menu">
+          <ul>
+              <li>
+                  <a href="/" class="title">Soy visitante</a>
+              </li>
+              <li>
+                  <a href="/" class="title">Soy personal del Yumka'</a>
+              </li>
+              <li>
+                  <a href="/" class="title">yumka.gob.mx</a>
+              </li>
+          </ul>   
+      </div>
+
+
+
+
+
+
+
+
+
+<!--
       <div class="container-fluid">
         <div class="row">
 
           <div class="col">
-            <img src="<?php bloginfo('template_url'); ?>/img/LogoLetraYUMKA.png" alt="yumka" style="padding: 0px 0px 15px 0px;">
+            <img src="<?php //bloginfo('template_url'); ?>/img/LogoLetraYUMKA.png" alt="yumka" style="padding: 0px 0px 15px 0px;">
           </div>
 
           <div class="col">
@@ -75,19 +138,17 @@
           </div>
         </div>
       </div>
+-->
 
-<!-- Generamos un menu con opciones para mobiles -->
+
+<!--
 <div class="col" style="background-color: #f8f400;">
 <nav class="navbar navbar-expand-md navbar-light" style=".bg-color="#f8f400";">
-  <!-- <a class="navbar-brand" href="#">Navbar</a>  -->
-
-  <!-- Genera el boton de menu para dispositivos mobiles -->
+    
   <button class="navbar-toggler" id="menu-movil" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation" >
-    <span ><i class="fas fa-bars"></i></span>
-    <!-- <span class="navbar-toggler-icon"  ></span>
-    style="background-image: url('https://mdbootstrap.com/img/svg/hamburger6.svg?color=c02232');" -->
+    <span ><i class="fas fa-bars"></i></span>    
   </button> 
-  <!-- /Genera el boton de menu para dispositivos mobiles -->
+  
   <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown" style="background-color: #f8f400;">
     <ul class="navbar-nav">
       <li class="nav-item active">
@@ -107,25 +168,11 @@
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#" style="color: #000000;">Contáctanos</a>
-      </li>
-      <!-- Agrega un menu con opciones desplegables -->
-      <!--
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Dropdown link
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <a class="dropdown-item" href="#">Something else here</a>
-        </div>
-      </li>
-      -->
-      <!-- /Agrega un menu con opciones desplegables -->
+      </li>      
     </ul>
   </div>
 </nav>
 </div>
-<!-- /Generamos un menu con opciones para mobiles -->
+-->
 
     </header>
