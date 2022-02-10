@@ -32,10 +32,25 @@
     <header>
       <div class="menus">
           <nav>
-              <img src="<?php bloginfo('template_url'); ?>/img/menu-mobile.png" alt="menu-mobile" class="menu-mobile">
+              <span class="span-mobile">
+                <img src="<?php echo get_template_directory_uri();; ?>/img/menu-mobile.png" alt="menu-mobile" class="menu-mobile">
+              </span>
+              <div class="mobile-menu">
+                  <ul>
+                      <li>
+                          <a href="/" class="title">Soy visitante</a>
+                      </li>
+                      <li>
+                          <a href="/" class="title">Soy personal del Yumka'</a>
+                      </li>
+                      <li>
+                          <a href="/" class="title">yumka.gob.mx</a>
+                      </li>
+                  </ul>   
+              </div>
 
               <div class="navbar-left">
-                  <img src="<?php bloginfo('template_url'); ?>/img/yumka_blanco.png" alt="logo-menu" class="logo-menu">
+                  <img src="<?php echo get_template_directory_uri();; ?>/img/yumka_blanco.png" alt="logo-menu" class="logo-menu">
                   <ul>
                       <li>
                           <a href="/">Recorrido</a>
@@ -58,8 +73,10 @@
               <div class="navbar-right">
                   <ul>
                       <li class="navbar-web"><a href="http://yumka.gob.mx">yumka.gob.mx</a></li>
-                      <li class="navbar-wifi">
-                          <img src="<?php bloginfo('template_url'); ?>/img/logo-wifi.png" alt="Conectarse">
+                      <li class="navbar-rs">                      
+                        <a href="https://www.facebook.com/ANPYumka/" target="_blank" rel="noopener noreferrer">
+                              <i><img src="<?php echo get_template_directory_uri();; ?>/img/logo-face.png" alt="Facebook"></i>
+                        </a>                          
                       </li>
                   </ul>                
               </div>
@@ -67,112 +84,8 @@
       </div>
 
       <div class="tucan-izq">
-          <img src="<?php bloginfo('template_url'); ?>/img/tucan_izq.png" alt="tucan_izq">
+          <img src="<?php echo get_template_directory_uri();; ?>/img/tucan_izq.png" alt="tucan_izq">
       </div>
-
-      <div class="desktop-menu">
-          <ul>
-              <li>
-                  <a href="/" class="title">Soy visitante</a>
-              </li>
-              <li>
-                  <a href="/" class="title">Soy personal del Yumka'</a>
-              </li>
-              <li>
-                  <a href="/" class="title">yumka.gob.mx</a>
-              </li>
-          </ul>   
-      </div>
-
-
-
-
-
-
-
-
-
-<!--
-      <div class="container-fluid">
-        <div class="row">
-
-          <div class="col">
-            <img src="<?php //bloginfo('template_url'); ?>/img/LogoLetraYUMKA.png" alt="yumka" style="padding: 0px 0px 15px 0px;">
-          </div>
-
-          <div class="col">
-            <ul class="social-header list-inline text-right">
-              <li class="list-inline-item">
-                <a href="#">
-                    <span class="fa-stack fa-sm">
-                        <i class="fa fa-circle fa-stack-2x"></i>
-                        <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-                      </span>
-                  </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">
-                    <span class="fa-stack fa-sm">
-                        <i class="fa fa-circle fa-stack-2x"></i>
-                        <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-                      </span>
-                  </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">
-                    <span class="fa-stack fa-sm">
-                        <i class="fa fa-circle fa-stack-2x"></i>
-                        <i class="fa fa-youtube fa-stack-1x fa-inverse"></i>
-                      </span>
-                  </a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">
-                    <span class="fa-stack fa-sm">
-                        <i class="fa fa-circle fa-stack-2x"></i>
-                        <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
-                      </span>
-                  </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
--->
-
-
-<!--
-<div class="col" style="background-color: #f8f400;">
-<nav class="navbar navbar-expand-md navbar-light" style=".bg-color="#f8f400";">
-    
-  <button class="navbar-toggler" id="menu-movil" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation" >
-    <span ><i class="fas fa-bars"></i></span>    
-  </button> 
-  
-  <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown" style="background-color: #f8f400;">
-    <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Yumka'<span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#" style="color: #000000;">Nuestra Ubicación</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#" style="color: #000000;">Boletos</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#" style="color: #000000;">Transporte</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#" style="color: #000000;">Agenda tu visita</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#" style="color: #000000;">Contáctanos</a>
-      </li>      
-    </ul>
-  </div>
-</nav>
-</div>
--->
+      
 
     </header>
