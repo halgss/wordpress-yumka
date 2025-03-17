@@ -1,2 +1,2 @@
 # wordpress-yumka
-Proyect theme wordpress for Yumka'
+Project theme wordpress for Yumka'
